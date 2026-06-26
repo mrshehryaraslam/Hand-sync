@@ -32,7 +32,7 @@ Hand Sync is a browser-based AI gesture experience where users control a glowing
 
 ## 📸 Screenshots
 
-Add screenshots in a `screenshots` folder.
+Add screenshots in a `screenshot` folder.
 
 ## 📌 Project Purpose
 
