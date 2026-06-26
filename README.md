@@ -30,9 +30,9 @@ Hand Sync is a browser-based AI gesture experience where users control a glowing
 
 > Camera access works best on `localhost` or HTTPS.
 
-## 📸 Screenshot
+## 📸 Screenshots
 
-Add screenshots in a `screenshot` folder.
+Add screenshots in a `screenshots` folder.
 
 ## 📌 Project Purpose
 
