@@ -32,7 +32,13 @@ Hand Sync is a browser-based AI gesture experience where users control a glowing
 
 ## 📸 Screenshots
 
-Screenshot 2026-06-26 150723.png
+## 📸 Screenshots
+
+![Demo 1](./screenshot/demo-1.png)
+
+![Demo 2](./screenshot/demo-2.png)
+
+![Demo 3](./screenshot/demo-3.png)
 
 ## 📌 Project Purpose
 
