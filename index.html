@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hand Sync | 3D Heart Tracking</title>
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">AI Gesture Experience</p>
+        <h1>Hand Sync</h1>
+      </div>
+      <div class="status-pill" id="statusPill">Starting camera...</div>
+    </header>
+
+    <section class="hero-card">
+      <div class="brand-block">
+        <div class="logo-heart">❤</div>
+        <div>
+          <h2>Move your hand, sync the heart</h2>
+          <p>Open hand, pinch, move closer, or tilt your hand to control the 3D heart.</p>
+        </div>
+      </div>
+
+      <div class="gesture-grid">
+        <div><span>✋</span> Open hand: Pink glow</div>
+        <div><span>✊</span> Fist: Red pulse</div>
+        <div><span>🤏</span> Pinch: Burst effect</div>
+        <div><span>📏</span> Distance: Size change</div>
+      </div>
+    </section>
+  </div>
+
+  <video id="video" autoplay muted playsinline></video>
+  <canvas id="overlay"></canvas>
+
+  <div class="camera-card">
+    <video id="preview" autoplay muted playsinline></video>
+    <p>Camera Preview</p>
+  </div>
+
+  <div class="loader" id="loader">
+    <div class="loader-heart">❤</div>
+    <p>Allow camera permission to start Hand Sync</p>
+  </div>
+
+  <!-- MediaPipe -->
+  <script src="https://cdn.jsdelivr.net/npm/@mediapipe/hands/hands.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils/camera_utils.min.js"></script>
+
+  <!-- Three.js -->
+  <script src="https://cdn.jsdelivr.net/npm/three@0.150.1/build/three.min.js"></script>
+
+  <script src="script.js"></script>
+</body>
+</html>
